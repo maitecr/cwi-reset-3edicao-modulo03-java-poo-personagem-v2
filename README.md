@@ -17,44 +17,37 @@ perderEstamina();
 ganharEstamina();
 coletarMoedas();
 
-1º Teste:
-a. Foi iniciado pelo método "status()" que retorna as características configuradas pelo método construtor;
-
-b. Descontou-se a estamina pelo método "perderEstamina()", a fim de verificar se retornaria o valor zero, mesmo que fossem descontada além;
-
-c. Método "revigorar()" para repor o valor 100 na estamina.
+1º Teste: Consistia em, através do método "status()", verificar se "perderEstamina()" e "revigorar()" estavam contabilizando a estamina. Além de verificar se quando, usado mais de dez vezes "perderEstamina()", o estamina permaneceria em zero ou contabilizaria como número negativo (o que não deveria acontecer).
 
 ![perder-estamina-revigorar](https://user-images.githubusercontent.com/81782090/131367460-603ddd0c-46e6-4f37-80cc-112605792e5a.jpg)
 
 
-2º Teste:
-a. Foi iniciado pelo método "status()" que retorna as características configuradas pelo método construtor;
-
-b. Verificou-se se, através do método "perderEstamina()", o valor era descontado do atributo, assim como, se o método "ganharEstamina()" acrescentava valor.
+2º Teste: Verificar se os métodos "perderEstamina()" e "ganharEstamina()" acrescenta os devidos valores ao atributo de estamina.
 
 ![ganhar-estamina](https://user-images.githubusercontent.com/81782090/131367789-9a785f78-0869-4511-9930-95938c3bf2ee.jpg)
 
-c. Também foi verificado se, ao acrescentar estamina acima de 100, o valor seria acrescentado ou permaneceria em 100.
+Depois, foi testado se "ganharEstamina()" acrescentaria um valor acima de cem no atributo estamina, o que não deveria acontecer.
 
 ![ganhar-estamina-acima-100](https://user-images.githubusercontent.com/81782090/131368048-be27f365-0fa0-41aa-ab05-92e69a3cc9ee.jpg)
 
-3º Teste:
-a. Foi iniciado pelo método "status()" que retorna as características configuradas pelo método construtor;
-
-b. Chamamos o método "perderEstamina()" e o "coletarMoedas()". Através do "coletarMoedas()", foi possível verificar se a contagem estava sendo computada e se, depois de acrescentar 10 moedas, seria acrescentada o valor de 1 vida;
-
-c. Por último, foi testado o método "morrer()", a fim de verificar se o valor de 1 vida era descontado e se a estamina revigorava para o valor de 100.
+3º Teste: Chamamos os métodos "perderEstamina()" e o "coletarMoedas()". Através do "coletarMoedas()", foi possível verificar se a contagem estava sendo computada e se, depois de acrescentar 10 moedas, seria somada mais 1 valor em vida. E, por fim, foi testado o método "morrer()", a fim de verificar se o valor de 1 vida era descontado e se a estamina revigorava para o valor de 100.
 
 ![perder-estamina-coletar-moedas-morrer-status](https://user-images.githubusercontent.com/81782090/131368700-d103eac6-b81c-4fe1-a1bb-3e9f79aa1206.jpg)
 
-
-4º Teste:
-a. Foi iniciado pelo método "status()" que retorna as características configuradas pelo método construtor;
-
-b. O método "morrer()" foi utilizado duas vezes para verificarmos se contabilizaria um número negativo ou manteria o número de vidas em zero.
+4º Teste: Foi verificado se o método "morrer()" contabilizaria um número negativo ou manteria o número de vidas em zero.
 
 ![morrer-2x-vidas-zero](https://user-images.githubusercontent.com/81782090/131369096-4c59e80c-5d4e-4d58-8d1c-4ac3e0d0e328.jpg)
 
+                                                                    Atualiado em 30 de Agosto de 20210.
 
-Atualiado em 30 de Agosto de 20210.
+Introdução da criação de objetos com arrays, onde, através do método construtor, podemos configurar seus nomes, velocidades e se possuem o anel que aumenta sua velocidade. 
 
+Caso possuam o anel, sua velocidade é multiplicada por cinco vezes, como nos exemplos abaixo.
+
+![aumentavelocidadept1](https://user-images.githubusercontent.com/81782090/131552432-e69d6509-2c3b-4868-b534-c34bafe7e894.jpg)
+
+![aumentavelocidadep2](https://user-images.githubusercontent.com/81782090/131552452-360b4b3e-ddce-42d8-8570-b8a20804dd70.jpg)
+
+Os métodos "perderVelocidade()" e "ganharVelocidade()" foram excluídos.
+
+                                                                    Atualizado em 31 de Agosto de 2021.
