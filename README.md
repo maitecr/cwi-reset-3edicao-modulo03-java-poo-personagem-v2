@@ -57,3 +57,5 @@ Nesta atualização, iniciamos o tema de relacionamento entre classes (agregaç�
 ![coletarmoedasfor](https://user-images.githubusercontent.com/81782090/131761713-164f7f89-efb2-4e25-8e7c-73279b2e8b90.jpg)
 
                                                                    Atualizado em 01 de Setembro de 2021.
+
+Continuação da atividade: https://github.com/maitecr/cwi-reset-3edicao-modulo03-java-poo-personagem-v3
