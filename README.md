@@ -51,3 +51,9 @@ Caso possuam o anel, sua velocidade é multiplicada por cinco vezes, como nos ex
 Os métodos "perderVelocidade()" e "ganharVelocidade()" foram excluídos.
 
                                                                     Atualizado em 31 de Agosto de 2021.
+
+Nesta atualização, iniciamos o tema de relacionamento entre classes (agregação). Onde foi criado um novo método costrutor em uma nova classe, chamada Jogo, que recebia dois jogadores. Este método construtor poderia executar o método "jogar()", onde atribuiria um valor aleatório ao atributo de moedas (presente na classe Personagem) e, assim, a partir da referência ao método "coletarMoedas()" (também na classe Personagem), contabilizaria o número de moedas coletadas e acrescentaria um valor a mais no atributo de vida.
+
+![coletarmoedasfor](https://user-images.githubusercontent.com/81782090/131761713-164f7f89-efb2-4e25-8e7c-73279b2e8b90.jpg)
+
+                                                                   Atualizado em 01 de Setembro de 2021.
